@@ -3,6 +3,7 @@ import SignupForm from "../pages/SignupForm";
 import SigninForm from "../pages/SigninForm";
 import TeamManagement from "../pages/TeamManagement";
 import Detail from "../pages/Detail";
+import MyTask from "../pages/MyTask";
 
 export const routers= createBrowserRouter([
     {
@@ -24,5 +25,9 @@ export const routers= createBrowserRouter([
     {
         path:'/detail',
         element:<Detail/>
+    },
+    {
+        path:'/myTask',
+        element:<MyTask/>
     }
 ])

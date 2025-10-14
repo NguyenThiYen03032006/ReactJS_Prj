@@ -68,11 +68,11 @@ const listEmployees = employees
 
   function handleAdd() {
     if (!validateForm()) return;
-
+    const u= listUsers.find((u)=>u.fullName===assigneeName)
     const newTask: Task = {
       id: Date.now().toString(),
       taskName,
-      assigneeId: JSON.parse(localStorage.getItem("user") || "0"),
+      assigneeId: u?.id as string,
       assigneeName,
       projectId: JSON.parse(localStorage.getItem("idDetail") || "0"),
       asignDate: formatDateToMMDD(startDate),

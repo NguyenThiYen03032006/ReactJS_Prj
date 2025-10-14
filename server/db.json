@@ -231,7 +231,7 @@
     {
       "id": "1760413932533",
       "taskName": "aaaaaa",
-      "assigneeId": "1",
+      "assigneeId": "2",
       "assigneeName": "Nguyen Van B",
       "projectId": "1",
       "asignDate": "10-15",
@@ -255,7 +255,7 @@
     {
       "id": "1760434999728",
       "taskName": "yyyy",
-      "assigneeId": "1",
+      "assigneeId": "3",
       "assigneeName": "Nguyen Van C",
       "projectId": "1",
       "asignDate": "10-22",
@@ -267,7 +267,7 @@
     {
       "id": "1760436812337",
       "taskName": "chốt kèo",
-      "assigneeId": "1",
+      "assigneeId": "3",
       "assigneeName": "Nguyen Van C",
       "projectId": "1",
       "asignDate": "10-15",
