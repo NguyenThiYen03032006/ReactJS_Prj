@@ -1,0 +1,280 @@
+{
+  "user": [
+    {
+      "id": "0",
+      "fullName": "Admin",
+      "email": "admin@gmail.com",
+      "password": "00000000"
+    },
+    {
+      "id": "1",
+      "fullName": "Nguyen Van A",
+      "email": "nva@gmail.com",
+      "password": "11111111"
+    },
+    {
+      "id": "2",
+      "fullName": "Nguyen Van B",
+      "email": "nvb@gmail.com",
+      "password": "22222222"
+    },
+    {
+      "id": "3",
+      "fullName": "Nguyen Van C",
+      "email": "nvc@gmail.com",
+      "password": "33333333"
+    }
+  ],
+  "project": [
+    {
+      "id": "1",
+      "projectName": "Xây dựng website thương mại điện tử bản 1",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798608/loi-ich-san-thuong-mai-dien-tu-1200x675_gqd39z.png",
+      "description": "Hướng đên sự tiện lợi bản 1",
+      "members": [
+        {
+          "userId": "1",
+          "role": "Project owner"
+        },
+        {
+          "userId": "2",
+          "role": "Frontend developer"
+        },
+        {
+          "userId": "3",
+          "role": "hehehe"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "projectName": "Phát triển ứng dụng di động",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798625/photo-1-16118179447911693455967_quwtyx.jpg",
+      "description": "Thích hợp với nhiều hệ điều hành",
+      "members": [
+        {
+          "userId": "1",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "projectName": "Quản lý dữ liệu khách hàng",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798629/qua16393876766418_k9oudj.jpg",
+      "description": "Tổ chức dữ liệu 1 cách tối giản",
+      "members": [
+        {
+          "userId": "1",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "projectName": "Xây dựng website thương mại điện tử",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798608/loi-ich-san-thuong-mai-dien-tu-1200x675_gqd39z.png",
+      "description": "Hướng đên sự tiện lợi",
+      "members": [
+        {
+          "userId": "0",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "projectName": "Quản lý dữ liệu khách hàng",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798629/qua16393876766418_k9oudj.jpg",
+      "description": "Thích hợp với nhiều hệ điều hành",
+      "members": [
+        {
+          "userId": "0",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "projectName": "Xây dựng website thương mại điện tử",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798608/loi-ich-san-thuong-mai-dien-tu-1200x675_gqd39z.png",
+      "description": "Tổ chức dữ liệu 1 cách tối giản",
+      "members": [
+        {
+          "userId": "2",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "projectName": "Phát triển ứng dụng di động",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759798625/photo-1-16118179447911693455967_quwtyx.jpg",
+      "description": "Thích hợp với nhiều hệ điều hành",
+      "members": [
+        {
+          "userId": "2",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "1759974308453",
+      "projectName": "Quản lý dữ liệu khách hàng 1",
+      "description": "123434354255",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1759974304/qodklvmglrm9epe1m7u0.jpg",
+      "members": [
+        {
+          "userId": "0",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "1760034765146",
+      "projectName": "Quản lý dữ liệu khách hàng 2",
+      "description": "mô tả demo 3",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760034765/fn8fyum0wq1cqxsyu1sq.jpg",
+      "members": [
+        {
+          "userId": "1",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "1760034790062",
+      "projectName": "Tư vấn tâm lý khách hàng VIP2",
+      "description": "mô tả demo 5",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760034790/np4bghayvng6prgkikcz.jpg",
+      "members": [
+        {
+          "userId": "1",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "1760054633642",
+      "projectName": "Tư vấn tâm lý khách hàng VIP",
+      "description": "Khách hàng vip",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760054631/cfzfkzn9xodkl4ypnvd2.jpg",
+      "members": [
+        {
+          "userId": "0",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "1760054674635",
+      "projectName": "Chuẩn bị bước vào kỷ băng hà",
+      "description": "trời xanh mây trắng nắng vàng",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760054670/pctwtfkbcyazowtx7rob.jpg",
+      "members": [
+        {
+          "userId": "0",
+          "role": "Project owner"
+        }
+      ]
+    },
+    {
+      "id": "1760054703091",
+      "projectName": "Không cứu nổi gia tộc",
+      "description": "Hậu nhân dạo này bị gì ý",
+      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760054702/dbmuypii0fx4ykergqbq.jpg",
+      "members": [
+        {
+          "userId": "0",
+          "role": "Project owner"
+        }
+      ]
+    }
+  ],
+  "task": [
+    {
+      "id": "1",
+      "taskName": "Soạn thảo để cương",
+      "assigneeId": "1",
+      "assigneeName": "Nguyễn Van A",
+      "projectId": "1",
+      "asignDate": "02-24",
+      "dueDate": "03-26",
+      "priority": "Cao",
+      "progress": "Đúng tiến độ",
+      "status": "To do"
+    },
+    {
+      "id": "2",
+      "taskName": "Kiểm tra giao diện",
+      "assigneeId": "1",
+      "assigneeName": "Nguyễn Van A",
+      "projectId": "1",
+      "asignDate": "02-24",
+      "dueDate": "03-26",
+      "priority": "Cao",
+      "progress": "Đúng tiến độ",
+      "status": "Pending"
+    },
+    {
+      "id": "3",
+      "taskName": "Lên lịch họp lần 1",
+      "assigneeId": "1",
+      "assigneeName": "Nguyễn Van A",
+      "projectId": "2",
+      "asignDate": "02-24",
+      "dueDate": "03-26",
+      "priority": "Thấp",
+      "progress": "Đúng tiến độ",
+      "status": "To do"
+    },
+    {
+      "id": "1760413932533",
+      "taskName": "aaaaaa",
+      "assigneeId": "1",
+      "assigneeName": "Nguyen Van B",
+      "projectId": "1",
+      "asignDate": "10-15",
+      "dueDate": "10-22",
+      "priority": "Thấp",
+      "progress": "Có rủi ro",
+      "status": "In Progress"
+    },
+    {
+      "id": "1760434967310",
+      "taskName": "xxxx",
+      "assigneeId": "1",
+      "assigneeName": "Nguyen Van A",
+      "projectId": "1",
+      "asignDate": "10-15",
+      "dueDate": "10-30",
+      "priority": "Thấp",
+      "progress": "Trễ hạn",
+      "status": "Done"
+    },
+    {
+      "id": "1760434999728",
+      "taskName": "yyyy",
+      "assigneeId": "1",
+      "assigneeName": "Nguyen Van C",
+      "projectId": "1",
+      "asignDate": "10-22",
+      "dueDate": "10-29",
+      "priority": "Cao",
+      "progress": "Đúng tiến độ",
+      "status": "Done"
+    },
+    {
+      "id": "1760436812337",
+      "taskName": "chốt kèo",
+      "assigneeId": "1",
+      "assigneeName": "Nguyen Van C",
+      "projectId": "1",
+      "asignDate": "10-15",
+      "dueDate": "10-29",
+      "priority": "Trung bình",
+      "progress": "Trễ hạn",
+      "status": "To do"
+    }
+  ]
+}
