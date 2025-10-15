@@ -79,6 +79,10 @@
         {
           "userId": "0",
           "role": "Project owner"
+        },
+        {
+          "userId": "3",
+          "role": "Dev"
         }
       ]
     },
@@ -159,30 +163,6 @@
       "projectName": "Tư vấn tâm lý khách hàng VIP",
       "description": "Khách hàng vip",
       "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760054631/cfzfkzn9xodkl4ypnvd2.jpg",
-      "members": [
-        {
-          "userId": "0",
-          "role": "Project owner"
-        }
-      ]
-    },
-    {
-      "id": "1760054674635",
-      "projectName": "Chuẩn bị bước vào kỷ băng hà",
-      "description": "trời xanh mây trắng nắng vàng",
-      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760054670/pctwtfkbcyazowtx7rob.jpg",
-      "members": [
-        {
-          "userId": "0",
-          "role": "Project owner"
-        }
-      ]
-    },
-    {
-      "id": "1760054703091",
-      "projectName": "Không cứu nổi gia tộc",
-      "description": "Hậu nhân dạo này bị gì ý",
-      "image": "https://res.cloudinary.com/dtzbq5t0k/image/upload/v1760054702/dbmuypii0fx4ykergqbq.jpg",
       "members": [
         {
           "userId": "0",
@@ -275,6 +255,18 @@
       "priority": "Trung bình",
       "progress": "Trễ hạn",
       "status": "To do"
+    },
+    {
+      "id": "1760508443934",
+      "taskName": "nnnnnnn",
+      "assigneeId": "0",
+      "assigneeName": "Admin",
+      "projectId": "4",
+      "asignDate": "10-16",
+      "dueDate": "10-29",
+      "priority": "Thấp",
+      "progress": "Trễ hạn",
+      "status": "Pending"
     }
   ]
 }
