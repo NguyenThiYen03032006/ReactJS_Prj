@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { fetchProject } from "../../redux/reducers/project";
 import { fetchTask } from "../../redux/reducers/task";
 import React from "react";
+import { setActionTask } from "../../redux/reducers/modalTask";
 
 export default function MyTask_List() {
   const dispatch = useDispatch<AppDispatch>();
@@ -67,7 +68,9 @@ export default function MyTask_List() {
         (progressOrder[b.progress] || 0) - (progressOrder[a.progress] || 0)
     );
   }
-
+function handleClick(){
+    dispatch(setActionTask('myTask'))
+  }
   return (
     <div className="body-container">
       <h3>Danh Sách Nhiệm Vụ</h3>
@@ -122,7 +125,7 @@ export default function MyTask_List() {
                         </td>
                         <td>
                           <span style={{ paddingRight: 10 }}>{t.status}</span>
-                          <i className="fa-regular fa-pen-to-square"></i>
+                          <i className="fa-regular fa-pen-to-square" onClick={handleClick}></i>
                         </td>
                         <td className="date">{t.asignDate}</td>
                         <td className="date">{t.dueDate}</td>
