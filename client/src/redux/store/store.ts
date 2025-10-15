@@ -5,6 +5,7 @@ import listTaskReducer from '../reducers/task'
 import modalReducer from '../reducers/modal'
 import modalTaskReducer from '../reducers/modalTask'
 import employeesReducer from '../reducers/employees'
+import myTaskReducer from'../reducers/myTask'
 export const store =configureStore({
     reducer:{
         listUser:listUserReducer,
@@ -13,6 +14,7 @@ export const store =configureStore({
         modal:modalReducer,
         modalTask:modalTaskReducer,
         employees:employeesReducer,
+        myTask:myTaskReducer,
     }
 })
 
